@@ -1,4 +1,4 @@
-package main
+package basicCommand
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-func conversion_between_numbering_data_type() {
+func ConvBetweenNumbDataType() {
 	var number int32 = 10
 	var bigNum = int64(number)     // convert int32 to int64
 	var floatNum = float32(number) // convert int32 to float32
@@ -15,7 +15,7 @@ func conversion_between_numbering_data_type() {
 	fmt.Println(number, bigNum, floatNum)
 }
 
-func conversion_to_string() {
+func ConvToString() {
 	var number int32 = 10
 	var isMaried bool = false
 
@@ -42,7 +42,7 @@ func conversion_to_string() {
 	*/
 }
 
-func conversion_int_to_string() {
+func ConvIntToString() {
 	var str = strconv.Itoa(10) // convert string to int
 
 	fmt.Println(str)
@@ -55,7 +55,7 @@ func conversion_int_to_string() {
 	*/
 }
 
-func conversion_string_to_int() {
+func ConvStringToInt() {
 	var num, _ = strconv.Atoi("10") // convert string to int
 
 	fmt.Println(num)

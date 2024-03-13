@@ -1,8 +1,8 @@
-package main
+package basicCommand
 
 import "fmt"
 
-func comment_inline() {
+func CommentInline() {
 	// this is comment
 	// print output "Hello World!"
 	// fmt.Println("Hello World!");
@@ -10,7 +10,7 @@ func comment_inline() {
 	fmt.Println("Hello Go!")
 }
 
-func comment_multiline() {
+func CommentMultiline() {
 	/*
 		this is comment
 		print output "Hello World!"

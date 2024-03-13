@@ -1,8 +1,8 @@
-package main
+package basicCommand
 
 import "fmt"
 
-func numeric_int() {
+func NumInt() {
 	/*
 		Tipe data	Nilai minimum		Nilai maksimum
 		int8		-128			127
@@ -18,7 +18,7 @@ func numeric_int() {
 	// 10000000000
 }
 
-func numeric_uint() {
+func NumUint() {
 	/*
 		Tipe data	Nilai minimum	Nilai maksimum
 		uint8		0		255
@@ -28,7 +28,7 @@ func numeric_uint() {
 	*/
 }
 
-func numeric_float() {
+func NumFloat() {
 	/*
 		Tipe data	Nilai minimum	Nilai maksimum
 		float32		-3.4E+38	3.4E+38
@@ -42,7 +42,7 @@ func numeric_float() {
 	// -2.232321431412
 }
 
-func numeric_operation() {
+func NumOperation() {
 	/*
 		Operator / Syntax	Keterangan
 		+			Penambahan
@@ -67,7 +67,7 @@ func numeric_operation() {
 	*/
 }
 
-func numeric_augmented_assignment() {
+func NumAugAssignment() {
 	/*
 		Operator / Syntax	Operasi matematika	Keterangan
 		a += 10			a = a + 10		Penambahan
@@ -84,7 +84,7 @@ func numeric_augmented_assignment() {
 	// 20
 }
 
-func numeric_unary_operator() {
+func NumUnaryOperator() {
 	/*
 		Operator / Syntax	Operasi matematika	Keterangan
 		a++			a = a + 1		increment (naik 1 angka)

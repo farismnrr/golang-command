@@ -1,8 +1,8 @@
-package main
+package basicCommand
 
 import "fmt"
 
-func arg_input_scan() {
+func ArgInputScan() {
 	var name, address string
 	fmt.Print("Enter your name and address : ")
 	fmt.Scan(&name, &address) // set input to variable 'name' and 'address'
@@ -18,7 +18,7 @@ func arg_input_scan() {
 	*/
 }
 
-func arg_input_scanln() {
+func ArgInputScanln() {
 	var name, address string
 	fmt.Print("Enter your name : ")
 	fmt.Scanln(&name)
@@ -38,7 +38,7 @@ func arg_input_scanln() {
 	*/
 }
 
-func arg_input_scanf() {
+func ArgInputScanf() {
 	var name, address string
 
 	fmt.Print("Enter your name and address : ")

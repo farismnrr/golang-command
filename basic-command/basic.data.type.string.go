@@ -1,8 +1,8 @@
-package main
+package basicCommand
 
 import "fmt"
 
-func data_type_string() {
+func DataTypeString() {
 	// "Hello World"
 	// "2134 !_+@&#*()"
 
@@ -15,13 +15,13 @@ func data_type_string() {
 	*/
 }
 
-func func_len() {
+func DataTypeFuncLen() {
 	fmt.Println(len("Hello World"))
 	// Output:
 	// 11 # total character
 }
 
-func func_get_character() {
+func DataTypeFuncGetChar() {
 	fmt.Println("Golang"[0])
 	fmt.Println("Golang"[2])
 	// Output:

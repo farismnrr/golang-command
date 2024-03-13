@@ -1,8 +1,8 @@
-package main
+package basicCommand
 
 import "fmt"
 
-func data_type_boolean() {
+func DataTypeBoolean() {
 	fmt.Println("Benar =", true)
 	fmt.Println("Salah =", false)
 	// Output:
