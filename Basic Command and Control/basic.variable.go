@@ -27,7 +27,7 @@ func var_default_value() {
 	/*
 		Tipe Data		Default Value
 		string			""
-		int				0
+		int			0
 		bool			false
 	*/
 
