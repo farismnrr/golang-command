@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	basicCommand "learn_golang/basic-command"
+
+	basicCommand "github.com/farismnrr/golang-command/tree/main/basic-command"
 )
 
 func main() {
