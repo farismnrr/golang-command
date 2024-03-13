@@ -27,14 +27,18 @@ func print() {
 	fmt.Print("This is output Print\n")
 	fmt.Print("Hello Go!")
 	// Output:
-	/* This is output Print
-	Hello Go! */
+	/*
+		This is output Print
+		Hello Go!
+	*/
 }
 
 func printf() {
 	fmt.Printf("My name is %s\n", "Budi")           // %s is formatting for string data type
 	fmt.Printf("%d is my contact number\n", 123434) // %d is formatting for integer / numberic data type
 	// Output:
-	/* My name is Budi
-	123434 is my contact number */
+	/*
+		My name is Budi
+		123434 is my contact number
+	*/
 }

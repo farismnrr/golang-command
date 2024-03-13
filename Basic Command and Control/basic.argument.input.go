@@ -11,9 +11,11 @@ func scan() {
 	fmt.Println("Your address", address)
 
 	// Output:
-	/* Enter your name and address : Budi Jakarta
-	Hello Budi
-	Your address Jakarta */
+	/*
+		Enter your name and address : Budi Jakarta
+		Hello Budi
+		Your address Jakarta
+	*/
 }
 
 func scanln() {
@@ -28,10 +30,12 @@ func scanln() {
 	fmt.Println("Your address", address)
 
 	// Output:
-	/* Enter your name : Budi
-	Enter your address : Jakarta
-	Hello Budi
-	Your address Jakarta */
+	/*
+		Enter your name : Budi
+		Enter your address : Jakarta
+		Hello Budi
+		Your address Jakarta
+	*/
 }
 
 func scanf() {
@@ -44,7 +48,9 @@ func scanf() {
 	fmt.Println("Your address", address)
 
 	// Output:
-	/* Enter your name and address : Budi Jakarta
-	Hello Budi
-	Your address Jakarta */
+	/*
+		Enter your name and address : Budi Jakarta
+		Hello Budi
+		Your address Jakarta
+	*/
 }
