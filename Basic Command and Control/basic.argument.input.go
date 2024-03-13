@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func scan() {
+func arg_input_scan() {
 	var name, address string
 	fmt.Print("Enter your name and address : ")
 	fmt.Scan(&name, &address) // set input to variable 'name' and 'address'
@@ -18,7 +18,7 @@ func scan() {
 	*/
 }
 
-func scanln() {
+func arg_input_scanln() {
 	var name, address string
 	fmt.Print("Enter your name : ")
 	fmt.Scanln(&name)
@@ -38,7 +38,7 @@ func scanln() {
 	*/
 }
 
-func scanf() {
+func arg_input_scanf() {
 	var name, address string
 
 	fmt.Print("Enter your name and address : ")

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func println() {
+func arg_output_println() {
 	fmt.Println("This is output Println")
 	fmt.Println("Hello Go!")
 	fmt.Println()
@@ -17,7 +17,7 @@ func println() {
 	*/
 }
 
-func print() {
+func arg_output_print() {
 	fmt.Print("This is output Print ")
 	fmt.Print("Hello Go!")
 
@@ -33,7 +33,7 @@ func print() {
 	*/
 }
 
-func printf() {
+func arg_output_printf() {
 	fmt.Printf("My name is %s\n", "Budi")           // %s is formatting for string data type
 	fmt.Printf("%d is my contact number\n", 123434) // %d is formatting for integer / numberic data type
 	// Output:
