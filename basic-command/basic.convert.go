@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-func ConvBetweenNumbDataType() {
+func CommandConvertBetweenNumbDataType() {
 	var number int32 = 10
 	var bigNum = int64(number)     // convert int32 to int64
 	var floatNum = float32(number) // convert int32 to float32
@@ -15,7 +15,7 @@ func ConvBetweenNumbDataType() {
 	fmt.Println(number, bigNum, floatNum)
 }
 
-func ConvToString() {
+func CommandConvertToString() {
 	var number int32 = 10
 	var isMaried bool = false
 
@@ -42,7 +42,7 @@ func ConvToString() {
 	*/
 }
 
-func ConvIntToString() {
+func CommandConvertIntToString() {
 	var str = strconv.Itoa(10) // convert string to int
 
 	fmt.Println(str)
@@ -55,7 +55,7 @@ func ConvIntToString() {
 	*/
 }
 
-func ConvStringToInt() {
+func CommandConvertStringToInt() {
 	var num, _ = strconv.Atoi("10") // convert string to int
 
 	fmt.Println(num)

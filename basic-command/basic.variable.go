@@ -2,7 +2,7 @@ package basicCommand
 
 import "fmt"
 
-func VarBasicDeclaration() {
+func CommandVarBasicDeclaration() {
 	// Method 1
 	var hello string
 	var age int
@@ -23,7 +23,7 @@ func VarBasicDeclaration() {
 	fmt.Println(hello2, hello3)
 }
 
-func VarDefaultValue() {
+func CommandVarDefaultValue() {
 	/*
 		Tipe Data		Default Value
 		string			""
@@ -42,7 +42,7 @@ func VarDefaultValue() {
 	fmt.Println(isMarried) // false
 }
 
-func VarShortDeclaration() {
+func CommandVarShortDeclaration() {
 	hello := "Hello World"
 	// sama saja dengan
 	// var hello string = "Hello World"
@@ -50,13 +50,13 @@ func VarShortDeclaration() {
 	fmt.Println(hello)
 }
 
-func ConstDeclaration() {
+func CommandConstDeclaration() {
 	const pi float64 = 3.14159265359
 	// jika kita melakukan assign nilai baru, maka error
 	// pi = 2.34 --> error
 }
 
-func VarConstMultiDeclaration() {
+func CommandVarConstMultiDeclaration() {
 	// Method 1
 	var name string
 	var address string
@@ -83,13 +83,13 @@ func VarConstMultiDeclaration() {
 	fmt.Println(name, name2, name3, name4, age3, age4, address, address2, status, status2, isMarried3, isMarried4)
 }
 
-func VarUnderscore() {
+func CommandVarUnderscore() {
 	hello, _ := "Hello", "Go!"
 
 	_, _ = fmt.Scanf("%s", &hello)
 }
 
-func VarNamingRule() {
+func CommandVarNamingRule() {
 	var myVariableName = "Hello Go!"   // camel case
 	var MyVariableName = "Hello Go!"   // pascal case
 	var my_variable_name = "Hello Go!" // snake case

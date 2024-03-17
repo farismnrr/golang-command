@@ -2,7 +2,7 @@ package basicCommand
 
 import "fmt"
 
-func ArgOutputPrintln() {
+func CommandArgumentOutputPrintln() {
 	fmt.Println("This is output Println")
 	fmt.Println("Hello Go!")
 	fmt.Println()
@@ -17,7 +17,7 @@ func ArgOutputPrintln() {
 	*/
 }
 
-func ArgOutputPrint() {
+func CommandArgumentOutputPrint() {
 	fmt.Print("This is output Print ")
 	fmt.Print("Hello Go!")
 
@@ -33,7 +33,7 @@ func ArgOutputPrint() {
 	*/
 }
 
-func ArgOutputPrintf() {
+func CommandArgumentOutputPrintf() {
 	fmt.Printf("My name is %s\n", "Budi")           // %s is formatting for string data type
 	fmt.Printf("%d is my contact number\n", 123434) // %d is formatting for integer / numberic data type
 	// Output:

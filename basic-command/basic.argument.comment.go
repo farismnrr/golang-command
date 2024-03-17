@@ -2,7 +2,7 @@ package basicCommand
 
 import "fmt"
 
-func CommentInline() {
+func CommandArgumentCommentInline() {
 	// this is comment
 	// print output "Hello World!"
 	// fmt.Println("Hello World!");
@@ -10,7 +10,7 @@ func CommentInline() {
 	fmt.Println("Hello Go!")
 }
 
-func CommentMultiline() {
+func CommandArgumentCommentMultiline() {
 	/*
 		this is comment
 		print output "Hello World!"

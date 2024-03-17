@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	basicCommand "github.com/farismnrr/golang-command/tree/main/basic-command"
+	basicControl "github.com/farismnrr/golang-command/tree/main/basic-control-structure"
 )
 
 func main() {
 	fmt.Println("Menjalankan fungsi main...")
-	basicCommand.ArgInputScan()
+	basicControl.ControlFuncDefer()
 }

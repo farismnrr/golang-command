@@ -2,7 +2,7 @@ package basicCommand
 
 import "fmt"
 
-func DataTypeBoolean() {
+func CommandDataTypeBoolean() {
 	fmt.Println("Benar =", true)
 	fmt.Println("Salah =", false)
 	// Output:

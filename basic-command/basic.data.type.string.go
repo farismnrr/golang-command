@@ -2,7 +2,7 @@ package basicCommand
 
 import "fmt"
 
-func DataTypeString() {
+func CommandDataTypeStr() {
 	// "Hello World"
 	// "2134 !_+@&#*()"
 
@@ -15,13 +15,13 @@ func DataTypeString() {
 	*/
 }
 
-func DataTypeFuncLen() {
+func CommandDataTypeStrFuncLen() {
 	fmt.Println(len("Hello World"))
 	// Output:
 	// 11 # total character
 }
 
-func DataTypeFuncGetChar() {
+func CommandDataTypeStrFuncGetChar() {
 	fmt.Println("Golang"[0])
 	fmt.Println("Golang"[2])
 	// Output:
