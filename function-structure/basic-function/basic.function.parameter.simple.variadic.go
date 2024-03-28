@@ -1,4 +1,4 @@
-package basicControl
+package basicFunction
 
 import (
 	"fmt"
@@ -12,6 +12,6 @@ func myHobbies(name string, hobbies ...string) {
 	fmt.Printf("My hobbies are: %s\n", hobbiesAsString)
 }
 
-func ControlFuncParameterSimpleVariadic() {
+func FunctionParameterSimpleVariadic() {
 	myHobbies("Aditira", "Coding", "Gaming", "Jogging")
 }

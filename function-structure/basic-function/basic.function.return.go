@@ -1,4 +1,4 @@
-package basicControl
+package basicFunction
 
 import "fmt"
 
@@ -8,7 +8,7 @@ func addNumbersReturn(n1 int, n2 int) int {
 	return sum
 }
 
-func ControlFuncReturn() {
+func FunctionReturn() {
 	// function call
 	result := addNumbersReturn(21, 13)
 

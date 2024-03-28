@@ -1,4 +1,4 @@
-package basicControl
+package basicFunction
 
 import (
 	"errors"
@@ -21,7 +21,7 @@ func GetData(key string) ([]string, error) {
 	return data, nil
 }
 
-func ControlFuncReturnMultiple() {
+func FunctionReturnMultiple() {
 	key := "foo"
 	data, err := GetData(key)
 	if err != nil {

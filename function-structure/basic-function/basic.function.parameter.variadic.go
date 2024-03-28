@@ -1,4 +1,4 @@
-package basicControl
+package basicFunction
 
 import "fmt"
 
@@ -12,7 +12,7 @@ func calcAvg(numbers ...int) float64 {
 	return avg
 }
 
-func ControlFuncParameterVariadic() {
+func FunctionParameterVariadic() {
 	var avg = calcAvg(2, 4, 3, 5, 4, 3, 3, 5, 5, 3)
 	var msg = fmt.Sprintf("Rata-rata : %.2f", avg)
 	fmt.Println(msg)

@@ -1,12 +1,7 @@
 package main
 
-import (
-	"fmt"
-
-	basicControl "github.com/farismnrr/golang-command/tree/main/basic-control-structure"
-)
+import basicFunction "github.com/farismnrr/golang-command/tree/main/basic-function"
 
 func main() {
-	fmt.Println("Menjalankan fungsi main...")
-	basicControl.ControlFuncDefer()
+	basicFunction.FunctionDefer()
 }

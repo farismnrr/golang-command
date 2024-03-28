@@ -1,4 +1,4 @@
-package basicControl
+package basicFunction
 
 import "fmt"
 
@@ -8,7 +8,7 @@ func addNumbersMulti(n1 int, n2 int) {
 	fmt.Println("Sum:", sum)
 }
 
-func ControlFuncParameterMulti() {
+func FunctionParameterMulti() {
 	// mengirim 2 parameter pada fungsi addNumbers
 	addNumbersMulti(21, 13)
 }

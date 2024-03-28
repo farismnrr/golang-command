@@ -1,8 +1,8 @@
-package basicControl
+package basicFunction
 
 import "fmt"
 
-func ControlFuncDefer() {
+func FunctionDefer() {
 	fmt.Println(countByOne(2))
 }
 

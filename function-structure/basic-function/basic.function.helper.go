@@ -1,4 +1,4 @@
-package basicControl
+package basicFunction
 
 import "fmt"
 
@@ -26,7 +26,7 @@ func reverse(x int) int {
 	return reversedDigit
 }
 
-func ControlFuncHelper() {
+func FunctionHelper() {
 
 	output := isPalindrome(121)
 	fmt.Println(output)

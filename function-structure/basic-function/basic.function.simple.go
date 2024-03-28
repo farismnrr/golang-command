@@ -1,4 +1,4 @@
-package basicControl
+package basicFunction
 
 import "fmt"
 
@@ -11,7 +11,7 @@ func addNumbersSimple() {
 	fmt.Println("Sum 12 + 8:", sum)
 }
 
-func ControlFuncSimple() {
+func FunctionSimple() {
 	// memanggil fungsi addNumbers
 	addNumbersSimple()
 }

@@ -1,4 +1,4 @@
-package basicControl
+package basicFunction
 
 import "fmt"
 
@@ -7,7 +7,7 @@ func sayHello(name string) {
 	fmt.Printf("Hello %s\n", name)
 }
 
-func ControlFuncParameterSimple() {
+func FunctionParameterSimple() {
 	// mengirim parameter yang berbeda dalam fungsi yang sama
 	sayHello("Aditira")
 	sayHello("Dito")

@@ -1,4 +1,4 @@
-package basicControl
+package basicFunction
 
 import "fmt"
 
@@ -11,7 +11,7 @@ func GetDataFromMap(dataDict map[string]string, key string) (data string, err er
 	return
 }
 
-func ControlFuncReturnNamed() {
+func FunctionReturnNamed() {
 	dataDict := map[string]string{
 		"key1": "value1",
 		"key2": "value2",
