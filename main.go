@@ -1,7 +1,7 @@
 package main
 
-import basicFunction "github.com/farismnrr/golang-command/tree/main/basic-function"
+import firstclassfunction "github.com/farismnrr/golang-command/tree/main/function-structure/first-class-function"
 
 func main() {
-	basicFunction.FunctionDefer()
+	firstclassfunction.FunctionAsParameter()
 }
